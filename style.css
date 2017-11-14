@@ -46,15 +46,15 @@ header
 
 .starting-sept::after
 {
-  border: 1px solid purple;
 	content: "";
   position: relative;
   top: 20px;
   background: no-repeat;
 	background-image: url('mw-icon@2x.png');
 	display: block;
-  background-position: -20px -5px;
-	width: 40px;
+  background-position: 1px 5px;
+  background-size: 100%;
+	width: 44px;
 	height: 40px;
   margin: 0 auto;
 }
@@ -67,6 +67,20 @@ header
 	line-height: 1.2;
 	font-weight: 100;
 	text-align: center;
+}
+
+.navigation::before {
+  content: "";
+  position: relative;
+  border: 2px solid blue;
+  background: no-repeat;
+  background-image: url('factory-logo.png');
+  float: left;
+  padding: 18px 34px;
+  background size: 100%;
+  width: 157px;
+  height: 100px;
+  margin: 18px 34px;
 }
 
 .navigation
@@ -166,18 +180,16 @@ header
 }
 
 .colearners-container {
-  position: relative;
+  /*position: relative;*/
   border: 2px solid purple;
   width: 100%;
   height: auto;
   clear: both;
 }
 
-/*start*/
-
 .colearners-title
 {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   height: auto;
   text-align: center;
@@ -295,7 +307,7 @@ header
 }
 
 .meet-the-instructor-header {
-  position: relative;
+  /*position: relative;*/
   margin-top: 208px;
   margin-left: 92px;
   color: #ffffff;
@@ -333,20 +345,21 @@ header
 
 .quote
 {
-  margin-top: 170px;
+  max-width: 800px;
+  margin-top: 0 auto;
+  padding-top: 170px 0 74px 0;
   text-align: center;
   color: #E66244;
   font-size: 48px;
   font-weight: 300i;
-  width: 100%;
-  height: 626px;
 }
 
 .graduate-list {
   text-align: center;
-  display: relative;
+  /*display: relative;*/
   color: #AAAAAA;
-  margin-top: -400px;
+  margin: 74px auto 111px;
+  font-size: 22px;
 }
 
 
@@ -357,10 +370,12 @@ header
 
 .ruby {
   list-style-type: none;
+  font-size: 16px;
+  color: #AAAAAA;
 }
 
 .section6 {
-
+  border: 2px solid purple;
 }
 
 .section6
