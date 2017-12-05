@@ -31,10 +31,19 @@ header
 	width: auto;
 	height:100%;
 	display: block;
-	background-image: url('hero.jpg');
+	background-image: url('img/hero.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center top;
+}
+
+.logo {
+  position: relative;
+  border: 2px solid blue;
+  background: no-repeat;
+  background size: 100%;
+  width: 157px;
+  height: 101px;
 }
 
 .starting-sept
@@ -50,7 +59,7 @@ header
   position: relative;
   top: 20px;
   background: no-repeat;
-	background-image: url('mw-icon@2x.png');
+	background-image: url('img/mw-icon@2x.png');
 	display: block;
   background-position: 1px 5px;
   background-size: 100%;
@@ -67,20 +76,6 @@ header
 	line-height: 1.2;
 	font-weight: 100;
 	text-align: center;
-}
-
-.navigation::before {
-  content: "";
-  position: relative;
-  border: 2px solid blue;
-  background: no-repeat;
-  background-image: url('factory-logo.png');
-  float: left;
-  padding: 18px 34px;
-  background size: 100%;
-  width: 157px;
-  height: 100px;
-  margin: 18px 34px;
 }
 
 .navigation
@@ -129,7 +124,7 @@ header
 	content: "";
   top: 77px;
   background: no-repeat;
-	background-image: url('divider.png');
+	background-image: url('img/divider.png');
 	display: inline-block;
   background-position: center;
 	width: 644px;
@@ -164,14 +159,29 @@ header
 	color: #777777;
   border: 2px solid red;
 	float: left;
-	width: 33.33%;
+	width: 50%;
 	padding: 0 25px;
 	margin-bottom: 101px;
+}
+.cgli:nth-child(odd) {
+  border: 1px solid blue;
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .course-goals-list li {
+  width: 33.33%;
+  }
+  .cgli:nth-child(odd) {
+    clear: none;
+  }
+  .cgli:nth-child(3n+1) {
+    border: 1px solid blue;
+    clear: both;
+  }
 }
 
 .course-goals-list h3
 {
-	/*text-tranform: uppercase;*/
 	color: #777777;
 	opacity: 100%;
 	font-size: 16px;
@@ -180,21 +190,20 @@ header
 }
 
 .colearners-container {
-  /*position: relative;*/
   border: 2px solid purple;
   width: 100%;
+  background-color: #fafafa;
   height: auto;
   clear: both;
 }
 
 .colearners-title
 {
-  /*position: absolute;*/
   width: 100%;
-  height: auto;
+  /*height: auto;*/
   text-align: center;
 	color: #444444;
-	margin: 91px;
+	margin-top: 91px;
 	opacity: 100%;
 	line-height: 1.9;
 	font-family: 500;
@@ -250,7 +259,6 @@ header
 .social-link {
   color: #666666;
   padding: 0 18px;
-
 }
 
 .social-link::before {
@@ -294,20 +302,17 @@ header
 {
   position: relative;
   border: 2px solid green;
-  width 100%;
-  height: 701px;
+  width: 100%;
 	background-position: center center;
-	width: auto;
 	height:100%;
 	display: block;
-	background-image: url('instructor.jpg');
+	background-image: url('img/instructor.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center top;
 }
 
 .meet-the-instructor-header {
-  /*position: relative;*/
   margin-top: 208px;
   margin-left: 92px;
   color: #ffffff;
@@ -340,38 +345,49 @@ header
   position: relative;
   border: 2px solid red;
   width: 100%;
-  height: 626px;
+  height: auto;
 }
 
 .quote
 {
-  max-width: 800px;
-  margin-top: 0 auto;
-  padding-top: 170px 0 74px 0;
-  text-align: center;
+  /*max-width: 800px;*/
+  /*margin-top: 0 auto;*/
+  /*width: 100%;*/
+  padding: 170px 0 74px 0;
+  /*text-align: center;
   color: #E66244;
+  font-size: 48px;*/
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: #C3BFBF;
   font-size: 48px;
-  font-weight: 300i;
+  /*line-height: 1.8;*/
+  font-weight: 300;
 }
 
 .graduate-list {
   text-align: center;
-  /*display: relative;*/
+  width: 100%;
   color: #AAAAAA;
-  margin: 74px auto 111px;
-  font-size: 22px;
+  list-style-type: none;
 }
 
+.adamdelong {
+  font-size: 22px;
+  text-align: center;
+}
 
 .graduate {
   color: #AAAAAA;
-  font-size: 16px;
+  font-size: 22px;
+  text-align: center;
 }
 
 .ruby {
-  list-style-type: none;
   font-size: 16px;
   color: #AAAAAA;
+  text-align: center;
 }
 
 .section6 {
@@ -382,16 +398,40 @@ header
 {
 	background-position: center center;
 	width: auto;
-	height:627px;
+	height: 627px;
 	display: block;
-	background-image: url('hero.jpg');
+	background-image: url('img/hero.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center top;
 }
 
 .info {
   position: relative;
   margin-top: 141px;
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
 
+.logo2 {
+  padding: 32px 0 0 33px;
+}
+
+.size {
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.location {
+  float: right;
+  color: #FFFFFF;
+}
+
+.footer {
+  width: 100%;
+  height: 126px;
+  background-color: #000000;
+  opacity: 0.5;
 }
