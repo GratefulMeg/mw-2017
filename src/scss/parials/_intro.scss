@@ -1,0 +1,30 @@
+.section2
+{
+	border: 2px solid blue;
+}
+
+.intro
+{
+	max-width: 800px;
+	padding-top: 150px;
+  margin: 0 auto;
+  text-align: center;
+	color: #C3BFBF;
+	font-size: 2rem;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.intro::after
+{
+  border: 1px solid purple;
+	// content: "";
+  top: 77px;
+  background: no-repeat;
+	background-image: url('../img/divider.png');
+	display: inline-block;
+  background-position: center;
+	width: 644px;
+	height: 40px;
+  margin: 100px auto;
+}

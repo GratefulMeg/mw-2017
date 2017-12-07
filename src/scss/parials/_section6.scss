@@ -1,0 +1,49 @@
+.section6
+{
+	background-position: center center;
+	width: auto;
+	height: 627px;
+	display: block;
+	background-image: url('../img/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  margin: 0;
+	background-position: center top;
+}
+
+.info {
+  position: relative;
+  margin-top: 141px;
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.logo2 {
+  padding: 32px 0 0 33px;
+}
+
+
+.size {
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.button {
+  border: 2px solid white;
+}
+
+.location {
+  float: right;
+  color: #FFFFFF;
+}
+
+.footer {
+  width: 100%;
+  // height: 126px;
+  padding: 125px 0;
+  background-color: #000000;
+  opacity: 0.5;
+  margin: 0;
+}

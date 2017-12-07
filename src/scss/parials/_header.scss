@@ -1,0 +1,103 @@
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+header
+{
+  position: relative;
+  width: 100%;
+  height: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+.modernweb
+{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+
+.background
+{
+	background-position: center center;
+	width: auto;
+	height:100%;
+	display: block;
+	background-image: url('../img/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.logo {
+  position: relative;
+  border: 2px solid blue;
+  background: no-repeat;
+  background-size: 100%;
+  width: 157px;
+  height: 101px;
+}
+
+.starting-sept
+{
+	text-align: center;
+	color: #ffffff;
+  font-weight: 100;
+}
+
+.starting-sept::after
+{
+	// content: "";
+  position: relative;
+  top: 20px;
+  background: no-repeat;
+	background-image: url('../img/mw-icon@2x.png');
+	display: block;
+  background-position: 1px 5px;
+  background-size: 100%;
+	width: 44px;
+	height: 40px;
+  margin: 0 auto;
+}
+
+.main-header
+{
+	color:#FFFFFF;
+	opacity: 100%;
+	font-size: 92px;
+	line-height: 1.2;
+	font-weight: 100;
+	text-align: center;
+}
+
+.navigation
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.navigation li
+{
+	float: right;
+	margin: 35px 28px;
+	text-align: right;
+	opacity: 100%;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.navigation li a
+{
+  text-decoration: none;
+	color:#FFFFFF;
+}

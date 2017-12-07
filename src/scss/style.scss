@@ -1,7 +1,10 @@
+@import 'parials/normalize';
+
 *, *::before, *::after
 {
     box-sizing: border-box;
 }
+
 
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
@@ -23,6 +26,7 @@ header
 	top: 100px;
 	width: 100%;
 }
+
 
 .background
 {
@@ -54,7 +58,7 @@ header
 
 .starting-sept::after
 {
-	content: "";
+	// content: "";
   position: relative;
   top: 20px;
   background: no-repeat;
@@ -120,7 +124,7 @@ header
 .intro::after
 {
   border: 1px solid purple;
-	content: "";
+	// content: "";
   top: 77px;
   background: no-repeat;
 	background-image: url('../img/divider.png');
@@ -251,7 +255,6 @@ header
   float: left;
   margin: 0 10px;
   border: 1px solid blue;
-
 }
 
 .social-link {
@@ -260,7 +263,7 @@ header
 }
 
 .social-link::before {
-  content: '';
+  // content: '';
   position: relative;
   border: 1px solid red;
   top: 4px;
@@ -409,6 +412,7 @@ header
 .logo2 {
   padding: 32px 0 0 33px;
 }
+
 
 .size {
   list-style-type: none;
