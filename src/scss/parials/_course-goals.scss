@@ -1,0 +1,56 @@
+.course-goals-container {
+  margin-bottom: 69px;
+  width: 100%;
+}
+
+.course-goals-title
+{
+	text-align: center;
+	width: 100%;
+	color: #777777;
+	margin-bottom: 69px;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+}
+
+.course-goals-list
+{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+.course-goals-list li
+{
+	color: #777777;
+  border: 2px solid red;
+	float: left;
+	width: 50%;
+	padding: 0 25px;
+	margin-bottom: 101px;
+}
+.cgli:nth-child(odd) {
+  border: 1px solid blue;
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .course-goals-list li {
+  width: 33.33%;
+  }
+  .cgli:nth-child(odd) {
+    clear: none;
+  }
+  .cgli:nth-child(3n+1) {
+    border: 1px solid blue;
+    clear: both;
+  }
+}
+
+.course-goals-list h3
+{
+	color: #777777;
+	opacity: 100%;
+	font-size: 16px;
+	line-height: 1.1;
+	font-weight: 700;
+}

@@ -1,0 +1,106 @@
+.colearners-container {
+  border: 2px solid purple;
+  width: 100%;
+  background-color: #fafafa;
+  height: auto;
+  clear: both;
+}
+
+.colearners-title
+{
+  width: 100%;
+  text-align: center;
+	color: #444444;
+	margin-top: 91px;
+	opacity: 100%;
+	line-height: 1.9;
+	font-family: 500;
+}
+
+.colearners-list
+{
+	position: relative;
+  overflow: hidden;
+  margin-top: 209px;
+  list-style-type: none;
+}
+
+.colearners-list h3
+{
+  text-align: center;
+	color: #777777;
+	opacity: 100%;
+	font-size: 16px;
+	line-height: 18px (1.1);
+}
+
+.learner
+{
+  float: left;
+  display: block;
+  width: 25%;
+  border: 1px solid blue;
+  font-weight: 500;
+}
+
+.learner img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.social-link-list {
+  background-color: #dedede;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.social-link-list li {
+  float: left;
+  margin: 0 10px;
+  border: 1px solid blue;
+}
+
+.social-link {
+  color: #666666;
+  padding: 0 18px;
+}
+
+.social-link::before {
+  // content: '';
+  position: relative;
+  border: 1px solid red;
+  top: 4px;
+  display: inline-block;
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+  background: no-repeat;
+  background-image: url('http://jeremyabrahams.github.io/img/slice.png')
+}
+
+.twitter::before {
+  background-position: 0px 0px;
+}
+
+.facebook::before {
+  background-position: -33px 0px;
+}
+
+.dribbble::before {
+   background-position: -69px 0px;
+}
+
+.linkedin::before {
+  background-position: -104px 0px;
+}
+
+.colearners-list li a
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  text-decoration: none;
+}

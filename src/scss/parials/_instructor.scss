@@ -1,0 +1,41 @@
+.instructor-background
+{
+  position: relative;
+  border: 2px solid green;
+  width: 100%;
+	background-position: center center;
+	height:100%;
+	display: block;
+	background-image: url('../img/instructor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.meet-the-instructor-header {
+  margin-top: 208px;
+  margin-left: 92px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.jeremy-abrahams {
+  margin-top: 15px;
+  margin-left: 92px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mighty {
+  color: #ffffff;
+  margin-left: 92px;
+}
+
+.instructor-text {
+  margin-top: 27px;
+  margin-left: 92px;
+  margin-bottom: 183px;
+  color: #ffffff;
+}

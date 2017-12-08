@@ -1,0 +1,439 @@
+@import 'parials/normalize';
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+header
+{
+  position: relative;
+  width: 100%;
+  height: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+.modernweb
+{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+
+.background
+{
+	background-position: center center;
+	width: auto;
+	height:100%;
+	display: block;
+	background-image: url('../img/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.logo {
+  position: relative;
+  border: 2px solid blue;
+  background: no-repeat;
+  background-size: 100%;
+  width: 157px;
+  height: 101px;
+}
+
+.starting-sept
+{
+	text-align: center;
+	color: #ffffff;
+  font-weight: 100;
+}
+
+.starting-sept::after
+{
+	// content: "";
+  position: relative;
+  top: 20px;
+  background: no-repeat;
+	background-image: url('../img/mw-icon@2x.png');
+	display: block;
+  background-position: 1px 5px;
+  background-size: 100%;
+	width: 44px;
+	height: 40px;
+  margin: 0 auto;
+}
+
+.main-header
+{
+	color:#FFFFFF;
+	opacity: 100%;
+	font-size: 92px;
+	line-height: 1.2;
+	font-weight: 100;
+	text-align: center;
+}
+
+.navigation
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.navigation li
+{
+	float: right;
+	margin: 35px 28px;
+	text-align: right;
+	opacity: 100%;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.navigation li a
+{
+  text-decoration: none;
+	color:#FFFFFF;
+}
+
+.section2
+{
+	border: 2px solid blue;
+}
+
+.intro
+{
+	max-width: 800px;
+	padding-top: 150px;
+  margin: 0 auto;
+  text-align: center;
+	color: #C3BFBF;
+	font-size: 2rem;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.intro::after
+{
+  border: 1px solid purple;
+	// content: "";
+  top: 77px;
+  background: no-repeat;
+	background-image: url('../img/divider.png');
+	display: inline-block;
+  background-position: center;
+	width: 644px;
+	height: 40px;
+  margin: 100px auto;
+}
+
+.course-goals-container {
+  margin-bottom: 69px;
+  width: 100%;
+}
+
+.course-goals-title
+{
+	text-align: center;
+	width: 100%;
+	color: #777777;
+	margin-bottom: 69px;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+}
+
+.course-goals-list
+{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+.course-goals-list li
+{
+	color: #777777;
+  border: 2px solid red;
+	float: left;
+	width: 50%;
+	padding: 0 25px;
+	margin-bottom: 101px;
+}
+.cgli:nth-child(odd) {
+  border: 1px solid blue;
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .course-goals-list li {
+  width: 33.33%;
+  }
+  .cgli:nth-child(odd) {
+    clear: none;
+  }
+  .cgli:nth-child(3n+1) {
+    border: 1px solid blue;
+    clear: both;
+  }
+}
+
+.course-goals-list h3
+{
+	color: #777777;
+	opacity: 100%;
+	font-size: 16px;
+	line-height: 1.1;
+	font-weight: 700;
+}
+
+.colearners-container {
+  border: 2px solid purple;
+  width: 100%;
+  background-color: #fafafa;
+  height: auto;
+  clear: both;
+}
+
+.colearners-title
+{
+  width: 100%;
+  text-align: center;
+	color: #444444;
+	margin-top: 91px;
+	opacity: 100%;
+	line-height: 1.9;
+	font-family: 500;
+}
+
+.colearners-list
+{
+	position: relative;
+  overflow: hidden;
+  margin-top: 209px;
+  list-style-type: none;
+}
+
+.colearners-list h3
+{
+  text-align: center;
+	color: #777777;
+	opacity: 100%;
+	font-size: 16px;
+	line-height: 18px (1.1);
+}
+
+.learner
+{
+  float: left;
+  display: block;
+  width: 25%;
+  border: 1px solid blue;
+  font-weight: 500;
+}
+
+.learner img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.social-link-list {
+  background-color: #dedede;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.social-link-list li {
+  float: left;
+  margin: 0 10px;
+  border: 1px solid blue;
+}
+
+.social-link {
+  color: #666666;
+  padding: 0 18px;
+}
+
+.social-link::before {
+  // content: '';
+  position: relative;
+  border: 1px solid red;
+  top: 4px;
+  display: inline-block;
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+  background: no-repeat;
+  background-image: url('http://jeremyabrahams.github.io/img/slice.png')
+}
+
+.twitter::before {
+  background-position: 0px 0px;
+}
+
+.facebook::before {
+  background-position: -33px 0px;
+}
+
+.dribbble::before {
+   background-position: -69px 0px;
+}
+
+.linkedin::before {
+  background-position: -104px 0px;
+}
+
+.colearners-list li a
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  text-decoration: none;
+}
+
+.instructor-background
+{
+  position: relative;
+  border: 2px solid green;
+  width: 100%;
+	background-position: center center;
+	height:100%;
+	display: block;
+	background-image: url('../img/instructor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.meet-the-instructor-header {
+  margin-top: 208px;
+  margin-left: 92px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.jeremy-abrahams {
+  margin-top: 15px;
+  margin-left: 92px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mighty {
+  color: #ffffff;
+  margin-left: 92px;
+}
+
+.instructor-text {
+  margin-top: 27px;
+  margin-left: 92px;
+  margin-bottom: 183px;
+  color: #ffffff;
+}
+
+.section5
+{
+  position: relative;
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+}
+
+.quote
+{
+  padding: 170px 0 74px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: #C3BFBF;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.graduate-list {
+  text-align: center;
+  width: 100%;
+  color: #AAAAAA;
+  list-style-type: none;
+}
+
+.adamdelong {
+  font-size: 22px;
+  text-align: center;
+}
+
+.graduate {
+  color: #AAAAAA;
+  font-size: 22px;
+  text-align: center;
+}
+
+.ruby {
+  font-size: 16px;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+.section6 {
+  border: 2px solid purple;
+}
+
+.section6
+{
+	background-position: center center;
+	width: auto;
+	height: 627px;
+	display: block;
+	background-image: url('../img/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  margin: 0;
+	background-position: center top;
+}
+
+.info {
+  position: relative;
+  margin-top: 141px;
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.logo2 {
+  padding: 32px 0 0 33px;
+}
+
+
+.size {
+  list-style-type: none;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.button {
+  border: 2px solid white;
+}
+
+.location {
+  float: right;
+  color: #FFFFFF;
+}
+
+.footer {
+  width: 100%;
+  // height: 126px;
+  padding: 125px 0;
+  background-color: #000000;
+  opacity: 0.5;
+  margin: 0;
+}
