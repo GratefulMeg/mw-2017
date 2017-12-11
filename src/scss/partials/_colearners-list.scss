@@ -4,17 +4,16 @@
   background-color: #fafafa;
   height: auto;
   clear: both;
-}
 
-.colearners-title
-{
-  width: 100%;
-  text-align: center;
-	color: $darkest-grey;
-	margin-top: 91px;
-	opacity: 100%;
-	line-height: 1.9;
-	font-family: 500;
+  .colearners-title {
+    width: 100%;
+    text-align: center;
+    color: $darkest-grey;
+    margin-top: 91px;
+    opacity: 100%;
+    line-height: 1.9;
+    font-family: 500;
+  }
 }
 
 .colearners-list
@@ -23,15 +22,14 @@
   overflow: hidden;
   margin-top: 209px;
   list-style-type: none;
-}
 
-.colearners-list h3
-{
-  text-align: center;
-	color: $white;
-	opacity: 100%;
-	font-size: 16px;
-	line-height: 18px (1.1);
+  h3 {
+    text-align: center;
+    color: $white;
+    opacity: 100%;
+    font-size: 16px;
+    line-height: 18px (1.1);
+  }
 }
 
 .learner
@@ -41,11 +39,11 @@
   width: 25%;
   border: 1px solid blue;
   font-weight: 500;
-}
 
-.learner img {
-  border-radius: 100%;
-  width: 100%;
+  img {
+    border-radius: 100%;
+    width: 100%;
+  }
 }
 
 .social-link-list {
@@ -55,12 +53,12 @@
   list-style-type: none;
   overflow: hidden;
   padding: 0;
-}
 
-.social-link-list li {
-  float: left;
-  margin: 0 10px;
-  border: 1px solid blue;
+  li {
+    float: left;
+    margin: 0 10px;
+    border: 1px solid blue;
+  }
 }
 
 .social-link {
