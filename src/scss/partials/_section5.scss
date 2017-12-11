@@ -1,3 +1,9 @@
+
+.grey-text-align-center {
+  text-align: center;
+  color: #AAAAAA;
+}
+
 .section5
 {
   position: relative;
@@ -20,8 +26,7 @@
 .graduate-list {
   text-align: center;
   width: 100%;
-  color: #AAAAAA;
-  list-style-type: none;
+  @extend .grey-text-align-center;
 }
 
 .adamdelong {
@@ -30,13 +35,11 @@
 }
 
 .graduate {
-  color: #AAAAAA;
+  @extend .grey-text-align-center;
   font-size: 22px;
-  text-align: center;
 }
 
 .ruby {
   font-size: 16px;
-  color: #AAAAAA;
-  text-align: center;
+  @extend .grey-text-align-center;
 }
