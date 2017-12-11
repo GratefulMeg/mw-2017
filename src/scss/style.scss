@@ -1,4 +1,11 @@
+// Vaiables
+$white: #FFFFFF;
+$light-grey: #C3BFBF;
+$dark-grey: #777777;
+$darkest-grey: #444444;
+$orange: #E66244;
 
+// Partials
 @import "partials/normalize";
 @import "partials/header";
 @import 'partials/intro';

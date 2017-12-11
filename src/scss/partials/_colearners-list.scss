@@ -10,7 +10,7 @@
 {
   width: 100%;
   text-align: center;
-	color: #444444;
+	color: $darkest-grey;
 	margin-top: 91px;
 	opacity: 100%;
 	line-height: 1.9;
@@ -28,7 +28,7 @@
 .colearners-list h3
 {
   text-align: center;
-	color: #777777;
+	color: $white;
 	opacity: 100%;
 	font-size: 16px;
 	line-height: 18px (1.1);
@@ -69,7 +69,6 @@
 }
 
 .social-link::before {
-  // content: '';
   position: relative;
   border: 1px solid red;
   top: 4px;

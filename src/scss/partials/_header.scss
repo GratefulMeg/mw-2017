@@ -51,13 +51,12 @@ header
 .starting-sept
 {
 	text-align: center;
-	color: #ffffff;
+	color: $white;
   font-weight: 100;
 }
 
 .starting-sept::after
 {
-	// content: "";
   position: relative;
   top: 20px;
   background: no-repeat;
@@ -72,7 +71,7 @@ header
 
 .main-header
 {
-	color:#FFFFFF;
+	color: $white;
 	opacity: 100%;
 	font-size: 92px;
 	line-height: 1.2;
@@ -100,5 +99,5 @@ header
 .navigation li a
 {
   text-decoration: none;
-	color:#FFFFFF;
+	color: $white;
 }

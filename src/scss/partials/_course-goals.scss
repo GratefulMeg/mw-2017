@@ -7,7 +7,7 @@
 {
 	text-align: center;
 	width: 100%;
-	color: #777777;
+	color: $dark-grey;
 	margin-bottom: 69px;
 	font-size: 1.75rem;
 	text-transform: uppercase;
@@ -22,7 +22,7 @@
 
 .course-goals-list li
 {
-	color: #777777;
+	color: $dark-grey;
   border: 2px solid red;
 	float: left;
 	width: 50%;
@@ -48,7 +48,7 @@
 
 .course-goals-list h3
 {
-	color: #777777;
+	color: $white;
 	opacity: 100%;
 	font-size: 16px;
 	line-height: 1.1;

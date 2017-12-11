@@ -1,7 +1,3 @@
-.section2
-{
-	border: 2px solid blue;
-}
 
 .intro
 {
@@ -9,7 +5,7 @@
 	padding-top: 150px;
   margin: 0 auto;
   text-align: center;
-	color: #C3BFBF;
+	color: $light-grey;
 	font-size: 2rem;
 	line-height: 1.8;
 	font-weight: 300;
@@ -18,7 +14,6 @@
 .intro::after
 {
   border: 1px solid purple;
-	// content: "";
   top: 77px;
   background: no-repeat;
 	background-image: url('../img/divider.png');
